@@ -16,8 +16,6 @@ npm run build
 wp plugin activate dmg-read-more
 ```
 
-The compiled `build/` directory ships with the repo, so `npm` is only needed if you change the source under `src/`.
-
 ## The block
 
 Insert **Read More Link** from the block inserter. In the block sidebar (InspectorControls) you can:
