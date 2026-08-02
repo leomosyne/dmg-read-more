@@ -1,0 +1,13 @@
+/**
+ * Front-end + editor styles for the Read More paragraph.
+ */
+.dmg-read-more {
+    a {
+        font-weight: 600;
+        text-decoration: underline;
+
+        &:hover {
+            color: var(--wp--preset--color--vivid-cyan-blue, #0693e3);
+        }
+    }
+}

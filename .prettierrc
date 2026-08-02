@@ -1,0 +1,36 @@
+{
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "arrowParens": "avoid",
+    "overrides": [
+        {
+            "files": ["*.json", "*.yml"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ],
+    "importOrder": [
+        "^react(.*)$",
+        "^@wordpress/(.*)$",
+        "<THIRD_PARTY_MODULES>",
+        "^@stores/(.*)$",
+        "^@plugins/(.*)$",
+        "^@blocks/(.*)$",
+        "^@components/(.*)$",
+        "^@hocs/(.*)$",
+        "^@hooks/(.*)$",
+        "^@constants/(.*)$",
+        "^@utils/(.*)$",
+        "^@assets/(.*)$",
+        "^@styles/(.*)$",
+        "^@tokens/(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "plugins": ["@trivago/prettier-plugin-sort-imports"]
+}

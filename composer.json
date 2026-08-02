@@ -1,0 +1,21 @@
+{
+  "name": "leo/dmg-read-more",
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^4.0"
+  },
+  "scripts": {
+    "lint": "phpcs",
+    "lint:fix": "phpcbf"
+  },
+  "autoload": {
+    "psr-4": {
+      "Leo\\DmgReadMore\\": "includes/"
+    }
+  },
+  "authors": [
+    {
+      "name": "2leonardo",
+      "email": "2leonardo.esposito@gmail.com"
+    }
+  ]
+}

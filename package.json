@@ -1,0 +1,23 @@
+{
+  "name": "dmg-read-more",
+  "version": "1.0.0",
+  "description": "Gutenberg block for inserting a stylized Read More link to a published post, plus a WP-CLI command for finding posts that contain it.",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "prepare": "husky",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js",
+    "format": "wp-scripts format"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@wordpress/scripts": "^30.0.0",
+    "editorconfig": "^3.0.2",
+    "eslint": "^8.57.1",
+    "husky": "^9.1.7",
+    "prettier": "^3.9.6"
+  }
+}

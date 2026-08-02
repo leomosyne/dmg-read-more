@@ -1,0 +1,60 @@
+# compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# dependencies
+/node_modules
+/vendor
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# production
+/build
+
+# logs and databases
+*.log
+*.sql
+*.sqlite
+
+# env
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# codekit
+.sass-cache/
+.codekit-config.json
+config.codekit
+
+# git
+.gitmodules
+
+# ide
+/.vscode
